@@ -6,7 +6,7 @@ int main(){
   if(a%2==0)
     printf("Even"); // for printing the output
   else
-    printf("Odd");  // // for printing the output
+    printf("Odd");  // // for printing the output of the given data
   
 return 0; // returning the main function as 0
 } 
