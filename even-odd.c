@@ -3,10 +3,8 @@
 int main(){
   int a=0;
   scanf("%d",&a);
-  if(a%2==0)
-    printf("Even");
-  else
-    printf("Odd");
+//   use bitwise and operation
+  (a&1)? printf("Odd"): printf("Even");
   
 return 0;
 } 
